@@ -2,7 +2,7 @@ var typeorm = require("typeorm");
 var EntitySchema = typeorm.EntitySchema;
 
 const Users = require("./entity/Users")
-
+// Add some new code here
 typeorm.createConnection({
   name: "mysql",
   type: "mysql",
