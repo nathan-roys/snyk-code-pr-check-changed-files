@@ -21,7 +21,7 @@ var mongoCFUri = cfenv.getAppEnv().getServiceURL('goof-mongo');
 console.log(JSON.stringify(cfenv.getAppEnv()));
 
 // Default Mongo URI is local
-// Change some code
+// Change some code / AND AGAIN
 const DOCKER = process.env.DOCKER
 if (DOCKER === '1') {
   var mongoUri = 'mongodb://goof-mongo/express-todo';
